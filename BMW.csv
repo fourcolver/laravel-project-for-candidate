@@ -1,0 +1,42 @@
+
+Kundenname,Prozesse,"Hotness Of Client",Postcode,Country,"No.of Freelancers","7 Touch Rule",Technology,"Detailed Technology","Type of Client","Added By","Last Contact",Telephone,"Size of IT Departments","Total Comments","Total Managers","Total Projektanfragen","Total Tasks"
+BMW,"Telefon Interview",9,226025,Bahamas,16,"Xing,E-Mail,Phone,LinkedIn,ArticleSent","SAP,PHP","ASP.Net,BizTalk,C #,knockout,MVC,Oracle,autosar,C,Embedded,Matlab,Cobol,Hibernate,J2EE,MySQL,Oracle,NSI,Oracle,SAS,Embedded Tester,BI",,SEBASTIAN,10-07-2018,08960850272,89,9,4,2,7
+
+
+"BMW Activity Details"
+S.No,Date,Comment,"Contact Name",Recruiter
+1,"2018-07-10 04:16:15",dsdasda,"Karsten Berndt",SEBASTIAN
+2,"2018-05-04 05:30:32",Hello,"Anup Singh",Rajnish
+3,"2018-04-26 05:51:57","I need to create a custom login auth for email verification, I will post some snippets to give you an idea of the problem: Thanks","Anup Singh",SEBASTIAN
+4,"2018-04-25 14:57:49",Tasfasd,"Anup Singh",SEBASTIAN
+5,"2018-04-20 01:29:14","Hii Can I Call On skype","Karsten Berndt",SEBASTIAN
+6,"2018-04-18 09:05:17","Edit comment","Anu Singh",SEBASTIAN
+7,"2018-04-18 08:07:10","hii Admin","Karsten Berndt",SEBASTIAN
+8,"2018-04-18 08:06:13",asdasdas,"Anup Singh",SEBASTIAN
+9,"2018-04-05 12:00:20","display logged in user firstname and last name instead of email in php laravel
+","Anup Singh",SEBASTIAN
+
+
+"BMW Manager Details"
+S.No,Name,"Job Title",Department,"Phone Number","Mobile Number","Email Id","7 Touch Rule",Pincode,"Added by"
+1,"Anup Singh",Geschäftsführer,Einkauf,08960850272,08960850272,anup.singh2494@gmail.com,"Xing,E-Mail,Phone,Update",226025,SEBASTIAN
+2,"Anu Singh","HR Manager",HR,8960850272,8960850272,abc@gmfd.com,,asdasd,SEBASTIAN
+3,"Karsten Berndt",CIO,Geschäftsführung,213123123,123123123,dfsf@sad.com,,213123,SEBASTIAN
+4,"Karsten Über","Andere Abteilung","Andere Abteilung",213123123,712735634,honegg@aegon.ced,,34343,SEBASTIAN
+
+
+"BMW Projektanfragen Details"
+S.No,"Opportuniy Name",Probability,Technology,Type,Status,Source,Process,Coding,"Added by","Profile Sent"
+1,Anupkk,"10 %",Java,Contract,Active,Social,"Xing,Freelance.de","Django,Functional Tester,Product Owner,Project Manager",SEBASTIAN,5
+2,"PHP Developer","10 %","Microsoft .Net",Permanent,Active,Advertisement,"Xing,Freelance.de","Groovy,Perl,PHP",SEBASTIAN,
+
+
+"BMW Task Details"
+S.No,"Task Date",Priority,Task_status,Description,"Task Owner"
+1,2018-02-27,Low,Completed,Hello,SEBASTIAN
+2,2018-04-10,"Really High",Completed,,SEBASTIAN
+3,2018-02-27,Medium,"In Progress",Hello,SEBASTIAN
+4,2018-02-27,High,Completed,Hello,SEBASTIAN
+5,2018-04-11,Medium,Waiting,"Example Rajnish Task",Rajnish
+6,2018-07-10,Low,Waiting,ASdasdasd,SEBASTIAN
+7,2018-07-10,Medium,"In Progress","Rajnish Task",Rajnish

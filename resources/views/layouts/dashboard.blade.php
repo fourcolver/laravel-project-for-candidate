@@ -1,0 +1,6 @@
+@include('template_parts.freelancer_header')
+@include('template_parts.freelancer_content')
+@yield('content')
+@include('template_parts.freelancer_footer')
+@yield('css')
+@yield('js')

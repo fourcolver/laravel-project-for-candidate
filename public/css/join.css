@@ -1,0 +1,52 @@
+.m-aside-left--minimize .m-aside-menu .m-menu__nav {
+    padding: 30px 0 30px 0;
+    width: 6%;
+}
+
+#TaskModal {
+    display: none;
+}
+
+.comment_div li {
+    width: 100% !important;
+}
+
+.m-quick-sidebar__content {
+    padding: 61px 14px;
+}
+
+#accordion .panel-default .panel-heading a {
+    color: #fff;
+}
+
+#accordion .panel-default .panel-heading {
+    background-color: #5757f3;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 0 3px;
+}
+
+#accordion1 .panel-default .panel-heading a {
+    color: #fff;
+}
+
+#accordion1 .panel-default .panel-heading {
+    background-color: #5757f3;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 0 3px;
+}
+
+.ref_input input {
+    margin-top: 10px;
+}
+
+.m-checkbox > input:checked ~ span.mdoublecheck:after {
+    top: 60%;
+}
+
+.m-checkbox > input:checked ~ span.msinglecheck:after {
+    top: 33%;
+}

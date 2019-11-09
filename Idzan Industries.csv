@@ -1,0 +1,22 @@
+
+Kundenname,Prozesse,"Hotness Of Client",Postcode,Country,"No.of Freelancers","7 Touch Rule",Technology,"Detailed Technology","Type of Client","Added By","Last Contact",Telephone,"Size of IT Departments","Total Comments","Total Managers","Total Projektanfragen","Total Tasks"
+"Idzan Industries",,3,71273,Germany,12,,"Java,SAP",,,SEBASTIAN,11-04-2018,17663444962,,1,1,0,1
+
+
+"Idzan Industries Activity Details"
+S.No,Date,Comment,"Contact Name",Recruiter
+1,"2018-04-11 12:56:58",Test,"Ana Idzan",SEBASTIAN
+
+
+"Idzan Industries Manager Details"
+S.No,Name,"Job Title",Department,"Phone Number","Mobile Number","Email Id","7 Touch Rule",Pincode,"Added by"
+1,"Ana Idzan",CIO,Geschäftsführung,123123123123,123123123,123123@asdasd.de,,213123123123,SEBASTIAN
+
+
+"Idzan Industries Projektanfragen Details"
+S.No,"Opportuniy Name",Probability,Technology,Type,Status,Source,Process,Coding,"Added by","Profile Sent"
+
+
+"Idzan Industries Task Details"
+S.No,"Task Date",Priority,Task_status,Description,"Task Owner"
+1,2018-04-12,Low,"In Progress",Adadasdasd,SEBASTIAN

@@ -1,0 +1,6 @@
+@include('pages_template.admin_header')
+@include('pages_template.admin_content')
+@yield('content')
+@include('pages_template.admin_footer')
+@yield('css')
+@yield('js')

@@ -1,0 +1,7 @@
+.m-nav-fixed {
+    width: 255px !important;
+}
+
+.m-aside-left--minimize .m-aside-menu .m-menu__nav {
+    width: 80px !important;
+}

@@ -1,0 +1,26 @@
+
+Kundenname,Prozesse,"Hotness Of Client",Postcode,Country,"No.of Freelancers","7 Touch Rule",Technology,"Detailed Technology","Type of Client","Added By","Last Contact",Telephone,"Size of IT Departments","Total Comments","Total Managers","Total Projektanfragen","Total Tasks"
+Daimler,,7,0072654,Germany,9,,,,,SEBASTIAN,25-04-2018,0017663444962,,3,1,1,2
+
+
+"Daimler Activity Details"
+S.No,Date,Comment,"Contact Name",Recruiter
+1,"2018-04-25 14:56:40",Kommentar,"Zetsche Mario",SEBASTIAN
+2,"2018-04-10 14:56:35","Spoke to him about Freelancers.","Zetsche Mario",SEBASTIAN
+3,"2018-04-10 14:56:29","Spoke to him about Freelancers.","Zetsche Mario",SEBASTIAN
+
+
+"Daimler Manager Details"
+S.No,Name,"Job Title",Department,"Phone Number","Mobile Number","Email Id","7 Touch Rule",Pincode,"Added by"
+1,"Zetsche Mario",Geschäftsführer,Geschäftsführung,07878787878,08960850272,abc@gmail.com,,454545,SEBASTIAN
+
+
+"Daimler Projektanfragen Details"
+S.No,"Opportuniy Name",Probability,Technology,Type,Status,Source,Process,Coding,"Added by","Profile Sent"
+1,"PHP Developer","50 %","Microsoft .Net",Permanent,Active,Telephone,Xing,"ASP.Net,C #,Oracle,SAS,Functional Tester,Test Manager,tester",SEBASTIAN,15
+
+
+"Daimler Task Details"
+S.No,"Task Date",Priority,Task_status,Description,"Task Owner"
+1,2018-08-14,Medium,Waiting,,SEBASTIAN
+2,2018-08-28,Medium,"In Progress",,Rajnish

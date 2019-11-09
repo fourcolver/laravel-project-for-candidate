@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+.env
+public/deploy.log
+public/.bbd.php
+typo3_grau_01
+typo3_grau_02
+typo3_grau_03
+typo3_grau_03_

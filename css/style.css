@@ -1,0 +1,683 @@
+@font-face {
+  font-family: 'SegoeUI';
+  src:  url('/css/font/SegoeUI.woff') format('woff'), url('/css/font/SegoeUI.ttf')  format('truetype'), url('/css/font/SegoeUI.svg#SegoeUI') format('svg'),url('/css/font/SegoeUI.eot') format('embedded-opentype') ;
+}
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("/css/font/AvenirRoman.eot");src: url("/css/font/AvenirRoman.eot?#iefix") format("embedded-opentype"),url("/css/font/AvenirRoman.otf") format("opentype"),url("/css/font/AvenirRoman.svg") format("svg"),url("/css/font/AvenirRoman.ttf") format("truetype"),url("/css/font/AvenirRoman.woff") format("woff"),url("/css/font/AvenirRoman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("/css/font/AEH.eot");src: url("/css/font/AEH.eot?#iefix") format("embedded-opentype"),url("/css/font/AEH.otf") format("opentype"),url("/css/font/AEH.svg") format("svg"),url("/css/font/AEH.ttf") format("truetype"),url("/css/font/AEH.woff") format("woff"),url("/css/font/AEH.woff2") format("woff2");
+}
+.admin-index,.skill-ad{
+   font-family: SegoeUI !important;
+   font-weight: 300 !important;
+}
+.admin-index{
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    font-family: SegoeUI !important;
+}
+.edit-form{
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    font-family: SegoeUI !important;   
+}
+.admin-index .m-checkbox span{
+    background: rgba(113,106,202,.6);
+    height: 25px;
+    width: 25px;
+}
+.m-checkbox > span::after {
+    margin-left: -5px;
+    margin-top: -10px;
+    width: 10px;
+    height: 16px;
+    border-width: 0 3px 3px 0 !important;
+}
+.m-datatable.m-datatable--default > .m-datatable__table > .m-datatable__body .m-datatable__row > .m-datatable__cell .m-checkbox.m-checkbox--solid > input:checked ~ span{
+    background: #007BE5;
+}
+tbody .m-datatable__cell{
+    font-size: 16px !important;
+}
+.m-form .m-form__group label {
+    vertical-align: text-top;
+}
+.m-checkbox{
+    padding-left: 35px !important;
+} 
+.h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: SegoeUI !important;
+    font-weight: 300 !important;
+}
+.m_sticky{
+    position: fixed;
+    width: 255px;
+}
+#navigation_next{
+    width: 100%;
+    padding: 50px 63px;
+}
+#previous
+{
+    float: left;
+    width: 50%;
+}
+#next
+{
+    float: right;
+}
+#navigation_next span
+{
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: bolder;
+}
+.m-nav-fixed
+{
+    position: fixed;
+    width:19%;
+}
+.header_text		
+{
+	border: solid .1rem #c2d1de;
+    border-radius: 5px;
+    margin: 11px;
+    position: relative;
+    display: block;
+}
+.m-portlet__head-title
+{
+	width: 100%;
+}
+.m-portlet h2
+{
+	    display: inline-block;
+    color: #415a71;
+    font-size: 20px;
+    font-size: 2rem;
+    padding-top: 3px;
+}
+
+
+.col-lg-6 {
+    width: 50%;
+}
+
+@media (min-width: 768px)
+.widget_controls {
+    width: auto;
+    float: right;
+}
+.task_block
+{
+    width: 30%;
+    margin: 30px 12px;
+    float: left;
+}
+.tasks_widget_header
+{
+    display: block;
+    width: 100%;
+    clear: both;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-weight: bold;
+}
+.tasks_widget_content
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-size: 4rem;
+    color: #fff;
+    padding-bottom: 30px;
+}
+#overdue_tasks {
+    display: block;
+    float: left;
+    background: #f15854;
+    width: 50%;
+    border-right: 1px solid #fff;
+}
+#all_task
+{
+    display: block;
+    float: left;
+    background: #5da5da;
+    width: 50%;
+    border-right: 1px solid #fff;
+}
+#all_tasks .tasks_widget_header {
+     display: block; 
+     width: 100%; 
+     clear: both; 
+     color: #fff; 
+     text-transform: uppercase; 
+     text-align: center; 
+     padding: 30px 0 0 0; 
+     font-weight: bold; 
+}
+.widget_content
+{
+    padding: 20px;
+}
+#tasks_widget_info
+{
+    width: 100%;
+    margin: 0 auto 20px auto;
+    display: block;
+    clear: both;
+}
+#tasks_widget_info a
+{
+    text-decoration: none;
+}
+.widget_controls {
+    top: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.dropdown, .dropup {
+    position: relative;
+}
+.btn.btn-grey {
+    border-color: #c2d1de;
+    color: #768da0;
+    background: #f6f6f6;
+}
+@media (min-width: 768px)
+.widget_controls a {
+    width: auto;
+}
+
+.btn .caret {
+    position: relative;
+    right: -3px;
+    top: -1px;
+}
+.btn .fa {
+    font-size: 1.6rem;
+    position: relative;
+    left: -6px;
+    top: 2px;
+}
+
+ul#dashboard_dropdown.dropdown-menu {
+    right: 0;
+}
+.dropdown-menu {
+    font-size: 12px;
+}
+.dropdown-menu {
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.widget
+{
+	width: 25%;
+	float: left;
+}
+.m-subheader{
+    border-radius: 5px;
+    margin: 20px;
+    height: 50px;
+    padding: 10px !important;
+}
+.sub_btn
+{
+    margin-left: 80%;
+}
+.m-page-title 
+{
+    height: 50px;
+    font-weight: normal;
+    color: #434656;
+    font-size: 20px;
+}
+.view_block{
+    background-color: transparent !important;
+    height: auto;
+    overflow: hidden;
+    border: none;
+    margin: 11px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: none
+}
+.heading_details
+{
+    float: left;
+    width: 47%;
+}
+.data_accounts
+{
+    float: left;
+    width: 53%;
+}
+.view_data
+{
+    background-color: #f4f5f8;
+    padding: 6px;
+    font-family: inherit;
+}
+.view_data_row
+{
+    padding: 6px;
+}
+.m-datatable
+{
+    padding: 20px 0px;
+}
+.loader img
+{
+    height: 30px;
+    width: 27px;
+    margin-top: -29px;
+    float: right;
+}
+.title_header
+{
+    float: left;
+    width: 75%;
+}
+.add_button button
+{
+    width: 19%;
+    text-align: center;
+{
+}
+.opportunity_lines
+    padding: 14px;
+    border: 1px solid;
+}
+.opportunity_lines h4
+{
+    color: #34bfa3;
+}
+.displayb{
+display: block !important;
+}
+.w100{
+width: 100%;
+}
+.no-border{
+    border:none;
+    padding: 0 !important;
+    padding-right: 20px !important;
+}
+.no-border option{
+    font-size: 16px !important; 
+}
+.bg-admin{
+    background: transparent;
+    box-shadow: none
+}
+.admin-item{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(67,70,86,.10) 0 8px 20px;
+    background: #fff;
+    padding: 7px 0px 0px 20px !important;
+}
+.displayb >label{
+    font-size: 18px !important;
+    padding: 3px !important; 
+    padding-left: 10px !important;
+}
+
+select[multiple] option:checked {
+  background: red linear-gradient(0deg, #007BE5 0%, #007BE5 100%);
+}
+select[multiple] option{
+  padding-left: 10px;
+  border-radius: 14px;
+}
+.skill-items .select2-selection__choice{
+  color: #fff !important;
+  background: rgba(88,103,221,.7) !important;
+  border: none !important;
+  padding: 5px 14px !important;
+  font-size: 15px !important;
+  border-radius: 15px !important;
+}
+.skill-items .select2-selection__choice__remove{
+  color: #fff !important;
+}
+.skill-items .select2-container{
+    width: 100%
+}
+th{
+    background: #fff !important;
+    font-size: 20px !important;
+    font-weight: 300 !important
+}
+th span{
+    text-align: left !important;
+}
+th:not([data-field="id"]){
+    border-bottom: 1px solid #EAEAEA;
+}
+.datatable__row--active > .m-datatable__cell{
+    background: rgba(88,103,221,.15);
+}
+.m-datatable__row td:not([data-field="id"]){
+    border-bottom: 1px solid #EAEAEA;
+}
+.bg-admin > .m-portlet__body{
+    padding: 0 !important
+}
+.admin-content {
+    padding: 10px 30px !important;
+}
+.m-datatable.m-datatable--default > .m-datatable__table > .m-datatable__head .m-datatable__row > .m-datatable__cell .m-checkbox.m-checkbox--solid > span,.m-datatable.m-datatable--default > .m-datatable__table > .m-datatable__body .m-datatable__row > .m-datatable__cell .m-checkbox.m-checkbox--solid > span{
+    background: rgba(113,106,202,.6);
+    margin-left: 10px;
+}
+.skill-ad{
+    margin-top: 45px !important;
+}
+.kand-edit-block{
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important
+}
+.edit-form .edit-header{
+  font-size: 18px !important;
+}
+.edit-form .col-form-label{
+  width: 100%;
+}
+.cv-sect > label{
+   vertical-align: middle !important;
+}
+.cv-sect a{
+padding: 11px 25px;
+background: red;
+border-radius: 5px;
+margin-left: 30px;
+color: #fff;
+background: #0074E4;
+box-shadow: rgba(0,0,0,.20) 0 10px 20px;
+}
+.cv-sect input{
+margin-left: 50px !important;
+}
+.cv-sect .col-form-label{
+width: auto !important;
+}
+.cv-sect2 input{
+    width: 50%;
+    margin-left: 30px;
+    display: inline-block;
+}
+.three-col{
+    width: 32%;
+    margin: 10px 0 !important;
+}
+.two-col{
+    width: 47%;
+    margin: 10px 0 !important;
+}
+.edit-form .m-checkbox span{
+    background: rgba(113,106,202,.6);
+    height: 25px;
+    width: 25px;
+}
+.edit-form .m-checkbox input:checked ~ span{
+    background: rgba(113,106,202);
+}
+.edit-form .m-checkbox input:checked ~ span:after{
+    border: 1px solid #fff;
+}
+.edit-form .admin-item{
+    height: 274px;
+}
+.view-form .admin-item{
+    height: 100% !important;
+    padding-top: 25px !important;
+    overflow: hidden;
+    padding-left: 15px !important;
+}
+.view-form .admin-item .row{
+    border-bottom: 1px solid #F0F0F0;
+}
+.view-form .admin-item .row:hover{
+    background: #E5E6F8;
+}
+.view-form .admin-item > .form-group{
+    padding-bottom: 1rem !important;
+    margin-bottom: 0 !important;
+}
+.view-form .admin-item .m-checkbox-inline > br,.view-form .admin-item .col-form-label > br{
+    display: none;
+ }
+.view-form .col-form-label{
+    vertical-align: text-top;
+}
+.edit-form .overflowy{
+overflow-y: scroll;
+max-height: 217px;
+}
+.edit-form .select2-selection__choice{
+color: #fff !important;
+background: rgba(88,103,221,.7) !important;
+border: none !important;
+padding: 5px 14px !important;
+font-size: 15px !important;
+border-radius: 15px !important;
+}
+.edit-form .select2-selection__choice .select2-selection__choice__remove{
+color: #fff !important;
+}
+.edit-form .select2-container--default{
+width: 100% !important;
+}
+#accordion1 > .panel{
+margin-top: 35px;
+}
+.slect-row{
+margin-top: 10px;
+}
+.slect-row .select2-container--default{
+width: auto !important;
+min-width: 220px;
+}
+.edit-form .m-radio > span::after {
+    margin-left: -6.5px;
+    margin-top: -6.5px;
+    height: 13px;
+    width: 13px;
+}
+.edit-form .m-radio.m-radio--solid > span::after {
+    background: #007BE5;
+    border: none !important;
+}
+.edit-form .m-radio.m-radio--solid > span {
+    background: rgba(113,106,202,.6) !important;
+    border: 1px solid transparent !important;
+    height: 25px;
+    width: 25px;
+}
+.edit-form .m-radio{
+    padding-left: 35px !important;
+}
+.edit-form .m-radio.m-radio--solid > input:checked ~ span{
+    background: #fff !important;
+    border: solid 3px #007BE5 !important;
+}
+.edit-form .panel-heading{
+    width: 100%;
+}
+.m-form .m-form__actions.m-form__actions--solid {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.edit-btn .btn-secondary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.edit-form .sub_btn_header{
+    display: inline-block;
+    float: right;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.edit-form .m-subheader{
+    display: inline-block;
+}
+.edit-form .sub_btn_header .mr-auto{
+    margin-left: 0 !important;
+}
+th span{
+    text-align: center !important;
+        display: block !important;
+    margin: 0 auto !important
+}
+.m-datatable__cell > span{
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+.edit-form .m-form.m-form--group-seperator-dashed .m-form__group {
+    border-bottom: none !important
+}
+.skill-items label{
+    font-size: 18px !important;
+}
+
+
+.kand-edit-block{
+    margin: 0 !important;
+    padding: 0 30px !important;
+}
+.edit-form .m-form__group{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+footer{
+    margin-left: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+td[data-field="id"] span{
+}
+th[data-field="id"] label span{
+margin-left: 10px !important;
+}
+td[data-field="id"]{
+  width: 60px !important;
+}
+th[data-field="id"]{
+  width: 60px !important;
+}
+th[data-field="S_No"] span{
+width: 75px !important;
+}
+th[data-field="S_No"]{
+width: 75px !important;
+}
+td[data-field="S_No"]{
+width: 75px !important;
+}
+th[data-field="attached_cv"]{
+width: 150px !important;
+}
+td[data-field="attached_cv"]{
+width: 150px !important;
+}
+th[data-field="video"]{
+width: 80px !important;
+}
+td[data-field="video"]{
+width: 80px !important;
+}
+.m-datatable__row{
+    table-layout: fixed !important;
+}
+
+@media(min-width: 1300px){
+th[data-field="availability"] > span{
+    min-width: 176px !important
+}    
+}
+@media(min-width: 1000px){
+.cv-sect2{
+    text-align: right;
+}
+.other-ed{
+    padding-left: 30px;
+}   
+}
+@media(max-width: 768px){
+.edit-form .panel-heading{
+    width: 100% !important;
+}  
+.skill-items .m-form__label{
+display: block !important;
+}
+}
+@media(max-width: 990px){
+.edit-form .admin-item{
+    margin-top: 10px;
+}
+}
+@media(max-width: 1000px){
+.cv-sect2 input {
+    width: 100%;
+    margin-left: 0px;
+}
+.cv-sect2{
+    margin-top: 20px;
+}
+.edit-skillinp{
+    width: 100% !important;
+}
+}
+@media(max-width: 1100px){
+    .slect-row .m-checkbox{
+        display: block !important;
+    }
+}
+@media(min-width: 768px) and (max-width: 1180px){
+.cv-sect input {
+    margin-left: 60px !important;
+    display: block;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+}
+@media(max-width: 600px){
+    .cv-sect input {
+    margin-left: 60px !important;
+    display: block;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+}
